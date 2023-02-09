@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 25px;
+    color: grey;
+}
+
+p{
+    font-size: 18px;
+    color: rgb(98, 106, 112);
+}
+
+/* header section  */
+.two-section{
+    display: flex;
+    align-items: center;
+}
+
+.header-section{
+    padding-top: 40px;
+    background-image: linear-gradient(180deg, #E9E9E9, #F4F4F4);
+}
+
+.header-title{
+    padding: 10px 0;
+}
+
+.two-part{
+    width: 50%;
+}
+
+.two-part-img img{
+    width: 240%;
+}
+
+.header-contact{
+    text-align: right;
+    padding-right: 350px;
+}
+
+.btn{
+    border-radius: 5px;
+    border: 0;
+    padding: 14px 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    color: aliceblue;
+        background-color: orangered;
+}
+
+/* main section */
+main{
+    padding: 0px 200px;
+}
+
+/* info section  */
+.info-section{
+    padding-top: 100px;
+}
+
+.info-img-section img{
+    width: 100%;
+}
+
+.info-part{
+    padding-left: 100px;
+}
+
+.fa-check{
+    margin-right: 10px;
+    font-size: 22px;
+    color: rgb(13, 197, 13);
+}
+
+/* plan section  */
+.plan-section{
+    margin-top: 100px;
+}
+
+.plan-title{
+text-align: center;
+}
+
+.plan-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.single-plan{
+    text-align: center;
+}
+
+/* contact section  */
+.contact{
+    padding: 40px 80px;
+    border: 0;
+    border-radius: 10px;
+    text-align: left;
+    margin: 40px;
+    box-shadow: 10px;
+    color: white;
+    background-image: linear-gradient(50deg, #af5622, #e9e2e2);
+}
+
+.call-btn{
+    color: orangered;
+    background-color: white;
+}
+
+/* footer section */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 100px 200px;
+    text-align: left;
+}
+
+.footer img{
+    margin: 0 10px;
+}
+
+input{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
